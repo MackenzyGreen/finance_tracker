@@ -1,0 +1,29 @@
+.header-container {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #f8f8f8;
+}
+
+.header-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.add-button {
+    width: 3.5rem;
+    height: 1.8rem;
+    border: 2px solid black;
+    border-radius: .5rem;
+    background-color:#e8f4fe;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: .03rem;
+    font-size: medium;
+}
+
+.add-button:hover {
+    background-color: #b9c3cb;
+}

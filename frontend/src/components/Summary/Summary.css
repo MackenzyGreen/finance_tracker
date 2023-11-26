@@ -1,0 +1,46 @@
+.summary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 248, 248);
+    border: 2px solid black;
+    margin-left: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sum-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid black;
+}
+
+.split-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sum-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-right {
+    border-right: 1px solid black;
+}
+
+.sum-item {
+    padding-left: 2rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: large;
+}
