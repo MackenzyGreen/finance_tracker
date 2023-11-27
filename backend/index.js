@@ -124,4 +124,4 @@ app.post('/updateform', async (req, res) =>
     
 })
 
-app.listen(1337, '192.168.0.104', (req, res) => console.log("running on 1337"));
+app.listen(1337, process.env.IP, (req, res) => console.log("running on 1337"));
