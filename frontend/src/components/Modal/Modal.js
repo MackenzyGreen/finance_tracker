@@ -11,7 +11,7 @@ function Modal({show, toggleShow, updateData}) {
   const [formValid, setFormValid] = useState(false);
   const [ saveStatus, setSaveStatus ] = useState({show: false, status: false});
   const client = axios.create({
-    baseURL: "http://192.168.0.104:1337/updateform"
+    baseURL: "http://raspberrypi.local:1337/updateform"
   });
 
   useEffect(() => {

@@ -9,7 +9,7 @@ function Dashboard() {
   const [filterData, setFilterData] = useState([]);
   const [rawData, setRawData] = useState([]);
   const client = axios.create({
-    baseURL: "http://192.168.0.104:1337/getrecords"
+    baseURL: "http://raspberrypi.local:1337/getrecords"
   });
 
   const getData = () => {
